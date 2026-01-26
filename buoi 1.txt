@@ -1,0 +1,21 @@
+API
+Giao thức HTTP:
+    Các phương thức chuẩn: GET, POST (TẠO DL MỚI) , PUT(GỬI DL MỚI CẢ BẢN GHI), PATCH (UPDATE DL RIÊNG), DELETE
+    T/c: stateless: phiên hoạt động
+HTTP(S-secure): tận dụng mã hóa bất đối xứng (giống chữ ký đtử)
+RESTful API: tiêu chuẩn thiết kế API
+    endpoints API
+    sử dụng method
+    HTTP response code: 2xx. 3xx, 4xx,... https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status
+Springboot:
+    Spring là một Java framework
+    Được chia thành nhiều module, mỗi module làm một chức năng
+Maven: một công cụ xây dựng (build tool) mã nguồn mở - Package Manager: quản lý, cài đặt, cấu hình thư viện
+Dependency Injection: một design pattern cơ bản trong Spring Framework
+    tiêm thay vì tự tạo ra các "phụ thuộc" (dependencies)
+ApplicationContext - một cái "thùng" dữ liệu. tạo, qly các Oj
+    Bean là một đối tượng (object) được quản lý bởi ApplicationContext. VD: @Bean, @Controller, @Service
+    Bug: circle Dependency
+
+Kiến trúc Spring MVC: flow
+    // slide
