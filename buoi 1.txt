@@ -7,6 +7,9 @@ RESTful API: tiêu chuẩn thiết kế API
     endpoints API
     sử dụng method
     HTTP response code: 2xx. 3xx, 4xx,... https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status
+
+Tổng kết: từ UI -> API: GET, POST , PUT, PATCH, DELETE
+            API -> UI: 2xx. 3xx, 4xx,...
 Springboot:
     Spring là một Java framework
     Được chia thành nhiều module, mỗi module làm một chức năng
