@@ -16,13 +16,15 @@ public class DeviceController {
         this.deviceService = deviceService;
     }
 
-    @GetMapping
+    // làm CRUD
+
+    @GetMapping("/")
     public List<Device> getAllDevices() {
         return deviceService.getAllDevices();
     }
 
-    @GetMapping("/{id}")
-    public Device getDeviceById(@PathVariable Long id) {
+    @GetMapping("/{id}") // {id} -> biến id
+    public Device getDeviceById(@PathVariable Long id) { // id truyền vào hàm này
         return deviceService.getDeviceById(id);
     }
 

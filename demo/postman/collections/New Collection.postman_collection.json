@@ -1,0 +1,80 @@
+{
+  "info": {
+    "_postman_id": "3a8d6d56-4cc9-42c0-8192-60e61837935d",
+    "name": "New Collection",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Request All",
+      "id": "195eac07-693f-4d3a-a436-ac22bae1aea6",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": ""
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Request id",
+      "id": "b9369d90-d3a9-444e-bc1d-64ca0b03de8d",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": ""
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "New Device",
+      "id": "21178aea-885d-4e06-a157-5b33f924bd70",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "",
+              "type": "file",
+              "uuid": "b7fe4b29-354d-45b3-939c-202df3ef6ba1",
+              "src": []
+            }
+          ],
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "localhost:8080/devices",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "devices"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Delete device",
+      "id": "b9eb492a-9698-4727-b97f-fbfd2d7cecb6",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "url": {
+          "raw": ""
+        }
+      },
+      "response": []
+    }
+  ]
+}
