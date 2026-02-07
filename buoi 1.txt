@@ -1,6 +1,6 @@
 API
 Giao thức HTTP:
-    Các phương thức chuẩn: GET, POST (TẠO DL MỚI) , PUT(GỬI DL MỚI CẢ BẢN GHI), PATCH (UPDATE DL RIÊNG), DELETE
+    Các phương thức chuẩn: GET (truy xuất), POST (tạo mới), PUT (cập nhật/thay thế), PATCH (cập nhật một phần), DELETE (xóa)
     T/c: stateless: phiên hoạt động
 HTTP(S-secure): tận dụng mã hóa bất đối xứng (giống chữ ký đtử)
 RESTful API: tiêu chuẩn thiết kế API
