@@ -1,0 +1,29 @@
+{
+  "info": {
+    "_postman_id": "43e6d0fb-e1f1-4de2-91a1-9d8e4e8c0e20",
+    "name": "80/443",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "localhost:80/wordpress/wp-admin",
+      "id": "ef395f18-d8fc-448e-bbd8-f16081b1030d",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "localhost:80/wordpress/wp-admin",
+          "host": [
+            "localhost"
+          ],
+          "port": "80",
+          "path": [
+            "wordpress",
+            "wp-admin"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
